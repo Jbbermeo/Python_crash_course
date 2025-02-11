@@ -3,7 +3,7 @@
 ## 🔹 **1. Core Concepts Before OOP**
 👉 These are essential Python concepts to reinforce knowledge before diving into OOP.
 
-1. [Data Types in Python](core-concepts/data-types-in-python)
+1. [Data Types in Python](core-concepts/data-types-in-python.md)
 2. [Data Structures (Lists, Tuples, Dictionaries, Sets)](core-concepts/data-structures)
 3. [Mutable and Immutable Objects](core-concepts/mutable-and-immutable-objects)
 4. [Hashable Objects in Python](core-concepts/hashable-objects-in-python)
