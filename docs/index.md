@@ -3,20 +3,20 @@
 ## 🔹 **1. Core Concepts Before OOP**
 👉 These are essential Python concepts to reinforce knowledge before diving into OOP.
 
-1. [Data Types in Python](core-concepts/data-types-in-python.md)
-2. [Data Structures (Lists, Tuples, Dictionaries, Sets)](core-concepts/data-structures.md)
-3. [Mutable and Immutable Objects](core-concepts/mutable-and-immutable-objects.md)
-4. [Hashable Objects in Python](core-concepts/hashable-objects-in-python.md)
-5. [Functions and Variable Scope](core-concepts/functions-and-variable-scope.md)
-6. [*args and **kwargs](core-concepts/args-and-kwargs.md)
-7. [Keywords](core-concepts/keywords.md)
-8. [Exception Handling](core-concepts/exception-handling.md)
-9. [Iterators and Generators](core-concepts/iterators-and-generators.md)
-10. [List Comprehensions and Lambda Functions](core-concepts/list-comprehensions-and-lambda-functions.md)
-11. [Decorators in Python](core-concepts/decorators-in-python.md)
-12. [Modules and Packages](core-concepts/modules-and-packages.md)
-13. [File Handling](core-concepts/file-handling.md)
-14. [Context Managers](core-concepts/context-managers.md)
+1. [Data Types in Python](core-concepts/data-types-in-python)
+2. [Data Structures (Lists, Tuples, Dictionaries, Sets)](core-concepts/data-structures)
+3. [Mutable and Immutable Objects](core-concepts/mutable-and-immutable-objects)
+4. [Hashable Objects in Python](core-concepts/hashable-objects-in-python)
+5. [Functions and Variable Scope](core-concepts/functions-and-variable-scope)
+6. [*args and **kwargs](core-concepts/args-and-kwargs)
+7. [Keywords](core-concepts/keywords)
+8. [Exception Handling](core-concepts/exception-handling)
+9. [Iterators and Generators](core-concepts/iterators-and-generators)
+10. [List Comprehensions and Lambda Functions](core-concepts/list-comprehensions-and-lambda-functions)
+11. [Decorators in Python](core-concepts/decorators-in-python)
+12. [Modules and Packages](core-concepts/modules-and-packages)
+13. [File Handling](core-concepts/file-handling)
+14. [Context Managers](core-concepts/context-managers)
 
 ## 🔹 **2. Key OOP Concepts**
 👉 Introduction to Object-Oriented Programming.
