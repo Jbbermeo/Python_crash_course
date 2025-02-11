@@ -172,27 +172,7 @@ def add_to_list(value, my_list=None):
 
 ---
 
-## 🔹 **7. Practice Challenges**
-
-### **Challenge 1: Identify Mutability**
-Given the following objects, determine which are mutable and which are immutable:
-```python
-x = [1, 2, 3]
-y = (4, 5, 6)
-z = {"key": "value"}
-a = "immutable"
-```
-
-### **Challenge 2: Preventing Unintended Modifications**
-Write a function that safely returns an immutable copy of a given list.
-```python
-def safe_copy(original_list):
-    return tuple(original_list)
-```
-
----
-
-## 🔹 **8. Summary**
+## 🔹 **7. Summary**
 Understanding the difference between mutable and immutable objects helps you write more efficient, bug-free Python code. By using the right type of object for each situation, you can improve performance and maintainability.
 
 Continue to the next section: **[Hashable Objects in Python](hashable-objects-in-python.md)**.

@@ -159,39 +159,7 @@ except InsufficientFundsError as e:
 
 ---
 
-## 🔹 **8. Practice Challenges**
-
-### **Challenge 1: Handling Exceptions**
-Write a function that takes two numbers and returns their division. Handle division by zero.
-```python
-def safe_divide(a, b):
-    try:
-        return a / b
-    except ZeroDivisionError:
-        return "Cannot divide by zero."
-
-print(safe_divide(10, 0))  # Output: Cannot divide by zero.
-```
-
-### **Challenge 2: Custom Exception**
-Create a custom exception `NegativeValueError` and use it in a function that checks for negative input.
-```python
-class NegativeValueError(Exception):
-    pass
-
-def check_positive(value):
-    if value < 0:
-        raise NegativeValueError("Negative value not allowed.")
-
-try:
-    check_positive(-10)
-except NegativeValueError as e:
-    print(e)
-```
-
----
-
-## 🔹 **9. Summary**
+## 🔹 **8. Summary**
 Exception handling helps prevent unexpected program crashes and ensures graceful error recovery. By using `try-except` blocks, raising custom exceptions, and following best practices, you can build more reliable and maintainable Python applications.
 
 Continue to the next section: **[Iterators and Generators](iterators-and-generators.md)**.

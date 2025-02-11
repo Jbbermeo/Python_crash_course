@@ -163,43 +163,8 @@ print(x is y)  # Output: False
 5. **Be aware of Python's caching:**
    - Small integers and short strings may be cached and reused, leading to unexpected results with `is`.
 
----
 
-## 🔹 **6. Practice Challenges**
-
-### **Challenge 1: Understanding Keywords**
-Identify and correct the error in the following code:
-```python
-def class():
-    return 42
-```
-
-### **Challenge 2: Equality vs. Identity**
-Write a function that demonstrates the difference between `==` and `is` using two different lists.
-```python
-def compare_lists():
-    a = [1, 2, 3]
-    b = [1, 2, 3]
-    print(a == b)  # True
-    print(a is b)  # False
-```
-
-### **Challenge 3: Resolving Variable Scope**
-What will be the output of the following code?
-```python
-x = "global"
-
-def test_scope():
-    x = "local"
-    print(x)
-
-test_scope()
-print(x)
-```
-
----
-
-## 🔹 **7. Summary**
+## 🔹 **6. Summary**
 Understanding Python's keywords, whitespace rules, namespaces, and object comparisons is essential for writing clean and maintainable code. By following best practices and avoiding common pitfalls, you can prevent bugs and ensure that your programs behave as expected.
 
 Continue to the next section: **[Exception Handling](exception-handling.md)**

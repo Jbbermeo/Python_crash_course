@@ -173,34 +173,7 @@ def example_function(a, *args, message="No message", **kwargs):
 example_function(1, 2, 3, message="Hello", name="Alice")
 ```
 
----
-
-## 🔹 **7. Practice Challenges**
-
-### **Challenge 1: Handling Variable Arguments**
-Write a function that accepts any number of numbers and returns their product.
-```python
-def product_of_numbers(*args):
-    result = 1
-    for num in args:
-        result *= num
-    return result
-
-print(product_of_numbers(2, 3, 4))  # Output: 24
-```
-
-### **Challenge 2: Dynamic Keyword Arguments**
-Write a function that accepts keyword arguments and returns a formatted string of key-value pairs.
-```python
-def format_kwargs(**kwargs):
-    return ", ".join(f"{key}={value}" for key, value in kwargs.items())
-
-print(format_kwargs(name="Alice", age=30))  # Output: name=Alice, age=30
-```
-
----
-
-## 🔹 **8. Summary**
+## 🔹 **7. Summary**
 `*args` and `**kwargs` provide flexibility in Python functions, allowing you to handle variable-length inputs. These features are especially useful in OOP for dynamic method definitions and method overriding. By using these tools effectively, you can write more adaptable and maintainable code.
 
 Continue to the next section: **[Keywords](keywords.md)**.

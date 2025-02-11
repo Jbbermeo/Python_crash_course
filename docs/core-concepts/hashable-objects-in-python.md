@@ -122,37 +122,7 @@ print(my_dict[data_key])  # Output: value
 3. **Implement custom hash and equality methods** for user-defined objects to ensure correct behavior in collections.
 4. **Use the `hash()` function** to inspect how objects are hashed, especially when designing custom classes.
 
----
-
-## 🔹 **7. Practice Challenges**
-
-### **Challenge 1: Hashable vs. Non-Hashable**
-Given the following objects, determine which are hashable and which are not:
-```python
-x = (1, 2, 3)
-y = [4, 5, 6]
-z = {'key': 'value'}
-a = frozenset({7, 8, 9})
-```
-
-### **Challenge 2: Custom Hash Method**
-Implement a custom class `Car` that is hashable based on its `make` and `model` attributes.
-```python
-class Car:
-    def __init__(self, make, model):
-        self.make = make
-        self.model = model
-
-    def __hash__(self):
-        return hash((self.make, self.model))
-
-    def __eq__(self, other):
-        return isinstance(other, Car) and self.make == other.make and self.model == other.model
-```
-
----
-
-## 🔹 **8. Summary**
+## 🔹 **7. Summary**
 Hashable objects are fundamental to Python's data structures like dictionaries and sets. The `hash()` function allows you to inspect how Python calculates hash values. By understanding how hashability works, you can design more efficient and reliable OOP solutions. Custom objects can also be made hashable to fit seamlessly into these collections.
 
 Continue to the next section: **[Functions and Variable Scope](functions-and-variable-scope.md)**.

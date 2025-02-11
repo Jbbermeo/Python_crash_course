@@ -234,35 +234,7 @@ def append_to_list(value, lst=None):
 
 ---
 
-## 🔹 **8. Practice Challenges**
-
-### **Challenge 1: Understanding Scope**
-Identify the output of the following code:
-```python
-x = "global"
-
-def outer():
-    x = "enclosing"
-
-    def inner():
-        print(x)
-    inner()
-
-outer()
-```
-
-### **Challenge 2: Variable-Length Arguments**
-Write a function that accepts any number of arguments and returns their sum.
-```python
-def sum_all(*args):
-    return sum(args)
-
-print(sum_all(1, 2, 3, 4))  # Output: 10
-```
-
----
-
-## 🔹 **9. Summary**
+## 🔹 **8. Summary**
 Functions and variable scope are crucial for structuring Python programs. Understanding how scope works allows you to control data flow, avoid conflicts, and write maintainable code. Following naming conventions ensures consistency and readability. In OOP, these principles become even more important when designing class methods and managing object state.
 
 Continue to the next section: **[args-and-kwargs](args-and-kwargs.md)**.
