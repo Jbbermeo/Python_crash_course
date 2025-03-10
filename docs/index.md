@@ -21,30 +21,28 @@
 ## 🔹 **2. Key OOP Concepts**
 👉 Introduction to Object-Oriented Programming.
 
-11. [What is Object-Oriented Programming?](#what-is-oop)
-12. [Classes and Objects](#classes-and-objects)
-13. [Attributes and Methods](#attributes-and-methods)
-14. [Encapsulation](#encapsulation)
-15. [Special Methods (Dunder Methods)](#special-methods)
-16. [Static and Class Methods](#static-and-class-methods)
-17. [Inheritance](#inheritance)
-18. [Polymorphism](#polymorphism)
-19. [Abstraction](#abstraction)
-20. [Properties and @property Decorator](#properties-and-property-decorator)
-21. [Composition and Aggregation](#composition-and-aggregation)
-22. [Operator Overloading](#operator-overloading)
-23. [Metaclasses in Python](#metaclasses-in-python)
+11. [What is Object-Oriented Programming?](oop-concepts/what-is-oop.md)
+12. [Classes and Objects](oop-concepts/classes-and-objects.md)
+13. [Attributes and Methods](oop-concepts/attributes-and-methods.md)
+14. [Encapsulation](oop-concepts/encapsulation.md)
+15. [Special Methods (Dunder Methods)](oop-concepts/special-methods.md)
+16. [Inheritance](oop-concepts/inheritance.md)
+17. [Polymorphism](oop-concepts/polymorphism.md)
+18. [Abstraction](oop-concepts/abstraction.md)
+19. [Composition and Aggregation](oop-concepts/composition-and-aggregation.md)
+20. [Operator Overloading](oop-concepts/operator-overloading.md)
+21. [Metaclasses in Python](oop-concepts/metaclasses-in-python.md)
 
 ## 🔹 **3. OOP Applications and Best Practices**
 👉 Applying OOP in real-world Python projects.
 
-24. [Class Design in Python](#class-design-in-python)
-25. [SOLID Principles in Python](#solid-principles-in-python)
-26. [Design Patterns (Singleton, Factory, etc.)](#design-patterns)
-27. [Using Dataclasses](#using-dataclasses)
-28. [Object Serialization (pickle, json)](#object-serialization)
-29. [Refactoring with OOP](#refactoring-with-oop)
-30. [Testing Classes and Methods](#testing-classes-and-methods)
+24. [Class Design in Python](oop-applications/class-design-in-python.md)
+25. [SOLID Principles in Python](oop-applications/solid-principles-in-python.md)
+26. [Design Patterns (Singleton, Factory, etc.)](oop-applications/design-patterns.md)
+27. [Using Dataclasses](oop-applications/using-dataclasses.md)
+28. [Object Serialization (pickle, json)](oop-applications/object-serialization.md)
+29. [Refactoring with OOP](oop-applications/refactoring-with-oop.md)
+30. [Testing Classes and Methods](oop-applications/testing-classes-and-methods.md)
 
 ## 🔹 **4. Exercises and Assessments**
 👉 **Practice exercises and assessments** to test knowledge.
