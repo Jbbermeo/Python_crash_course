@@ -1,8 +1,8 @@
-# Metaclasses in Python
+# 🔹Metaclasses in Python
 
 Metaclasses are one of the most advanced features of Python’s **Object-Oriented Programming (OOP)** paradigm. They define the behavior of **class creation**, just as classes define the behavior of object creation.
 
-## Why Use Metaclasses?
+## 🔹Why Use Metaclasses?
 - **Customization of Class Behavior**: Modify class attributes or methods dynamically.
 - **Enforcing Coding Standards**: Ensure all classes follow specific design rules.
 - **Automating Class Construction**: Add methods or properties at runtime.
@@ -10,7 +10,7 @@ Metaclasses are one of the most advanced features of Python’s **Object-Oriente
 
 ---
 
-## Understanding Metaclasses
+## 🔹Understanding Metaclasses
 A **metaclass** is a class **that defines how other classes behave**. In Python:
 - **Classes are objects** (created from `type`).
 - **Metaclasses create classes**, just like classes create objects.
@@ -36,7 +36,7 @@ class MyClass:
 
 ---
 
-## Defining Custom Metaclasses
+## 🔹Defining Custom Metaclasses
 A metaclass is **a class that creates classes** by overriding `type`.
 
 ### Example: Custom Metaclass
@@ -60,7 +60,7 @@ print(MyClass.created_by)  # Output: Metaclass
 
 ---
 
-## Enforcing Rules with Metaclasses
+## 🔹Enforcing Rules with Metaclasses
 Metaclasses can enforce naming conventions or required methods.
 
 ### Example: Enforcing Method Naming
@@ -88,7 +88,7 @@ class ValidClass(metaclass=MethodEnforcer):
 
 ---
 
-## Metaclass Use Cases
+## 🔹Metaclass Use Cases
 | Use Case | Description |
 |----------|-------------|
 | **Class Factories** | Dynamically generate classes at runtime. |
@@ -98,7 +98,7 @@ class ValidClass(metaclass=MethodEnforcer):
 
 ---
 
-## Summary
+## 🔹Summary
 - **Metaclasses define how classes behave**, just as classes define object behavior.
 - **`type` is Python's default metaclass**, but you can create custom ones.
 - **Metaclasses can enforce coding standards, automate class construction, and enhance debugging.**

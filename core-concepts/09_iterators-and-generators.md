@@ -200,4 +200,4 @@ for square in squares:
 ## 🔹 **8. Summary**
 Iterators and generators are essential tools for writing efficient Python programs. They allow you to work with large or infinite data streams without consuming excessive memory. By understanding how to create and use them effectively, you can build scalable and maintainable applications.
 
-Continue to the next section: **[List Comprehensions and Lambda Functions](list-comprehensions-and-lambda-functions.md)**.
+Continue to the next section: **[List Comprehensions and Lambda Functions](09_list-comprehensions-and-lambda-functions.md)**.

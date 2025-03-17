@@ -175,4 +175,4 @@ def add_to_list(value, my_list=None):
 ## 🔹 **7. Summary**
 Understanding the difference between mutable and immutable objects helps you write more efficient, bug-free Python code. By using the right type of object for each situation, you can improve performance and maintainability.
 
-Continue to the next section: **[Hashable Objects in Python](hashable-objects-in-python.md)**.
+Continue to the next section: **[Hashable Objects in Python](04_hashable-objects-in-python.md)**.

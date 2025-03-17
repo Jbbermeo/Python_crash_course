@@ -1,13 +1,13 @@
-# Inheritance in Python
+# 🔹Inheritance in Python
 
 Inheritance is a fundamental concept in Object-Oriented Programming (OOP) that allows a class (child class) to acquire the properties and behaviors of another class (parent class). This promotes code reusability and establishes relationships between classes.
 
-## Why Use Inheritance?
+## 🔹Why Use Inheritance?
 - **Code Reusability**: Avoids duplicating code by defining common behaviors in a base class.
 - **Modularity**: Helps structure code logically by defining general behavior in a superclass and specific behaviors in subclasses.
 - **Extensibility**: Allows extending existing functionality without modifying the original code.
 
-## Basic Syntax of Inheritance
+## 🔹Basic Syntax of Inheritance
 A child class inherits from a parent class using parentheses after the class name.
 
 ```python
@@ -22,7 +22,7 @@ c = Child()
 print(c.greet())  # Output: Hello from Parent
 ```
 
-## Types of Inheritance
+## 🔹Types of Inheritance
 
 ### 1. Single Inheritance
 A child class inherits from a single parent class.
@@ -174,7 +174,7 @@ c = C()
 print(c.base_method())  # Output: Base method
 ```
 
-## Method Overriding
+## 🔹Method Overriding
 A child class can redefine a method from the parent class.
 
 ```python
@@ -206,7 +206,7 @@ c = Child()
 print(c.show())  # Output: Parent method - Extended in Child
 ```
 
-## Checking Inheritance Relationships
+## 🔹Checking Inheritance Relationships
 ### Using `issubclass()`
 Checks if a class is a subclass of another.
 
@@ -230,7 +230,7 @@ print(isinstance(b, B))  # Output: True
 print(isinstance(b, A))  # Output: True
 ```
 
-## Summary
+## 🔹Summary
 - **Inheritance enables code reuse and structure.**
 - **Different types include single, multiple, multilevel, hierarchical, and hybrid inheritance.**
 - **Method overriding allows redefining behaviors in subclasses.**
@@ -239,3 +239,4 @@ print(isinstance(b, A))  # Output: True
 
 Understanding inheritance allows writing modular, reusable, and scalable object-oriented programs in Python.
 
+Continue to the next section: **[Polymorphism](07_polymorphism.md)**.

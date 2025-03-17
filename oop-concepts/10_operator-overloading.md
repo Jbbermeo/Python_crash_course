@@ -1,4 +1,4 @@
-# Operator Overloading in Python
+# 🔹Operator Overloading in Python
 
 Operator Overloading is a powerful feature in **Object-Oriented Programming (OOP)** that allows us to define how operators like `+`, `-`, `*`, `/`, and others work with **user-defined objects**. It makes code more **intuitive, readable, and expressive**.
 
@@ -9,7 +9,7 @@ Operator Overloading is a powerful feature in **Object-Oriented Programming (OOP
 
 ---
 
-## Understanding Operator Overloading
+## 🔹Understanding Operator Overloading
 By default, Python does **not** know how to perform operations like `object1 + object2`. To enable this, we define special **dunder (double underscore) methods**, also known as **magic methods**.
 
 ### Common Magic Methods for Overloading
@@ -26,7 +26,7 @@ By default, Python does **not** know how to perform operations like `object1 + o
 
 ---
 
-## Example: Overloading the `+` Operator
+## 🔹Example: Overloading the `+` Operator
 Consider a `Vector` class where we want to add two vector objects using `+`.
 
 ```python
@@ -53,7 +53,7 @@ print(result)  # Output: Vector(6, 8)
 
 ---
 
-## Example: Overloading `==` (Equality Comparison)
+## 🔹Example: Overloading `==` (Equality Comparison)
 To compare two objects using `==`, we override `__eq__`.
 
 ```python
@@ -78,7 +78,7 @@ print(book1 == book3)  # Output: False
 
 ---
 
-## Example: Overloading `*` (Multiplication)
+## 🔹Example: Overloading `*` (Multiplication)
 Let's say we want to multiply a `BankAccount` balance by a number.
 
 ```python
@@ -102,7 +102,7 @@ print(doubled)  # Output: BankAccount Balance: $2000
 
 ---
 
-## Key Takeaways
+## 🔹Summary
 | Concept | Description |
 |---------|-------------|
 | **Operator Overloading** | Customizing how operators work with user-defined objects |
@@ -110,3 +110,5 @@ print(doubled)  # Output: BankAccount Balance: $2000
 | **Benefits** | Improves readability, reusability, and flexibility |
 
 **Operator Overloading** allows Python objects to behave **intuitively**, making code more expressive and natural. 🚀
+
+Continue to the next section: **[Metaclasses in Python](11_metaclasses-in-python.md)**.

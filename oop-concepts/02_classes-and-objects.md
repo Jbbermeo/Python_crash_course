@@ -1,6 +1,6 @@
 ## 🔹 **Classes and Objects in Python**
 
-### What is a Class?
+### 🔹What is a Class?
 A **class** is a blueprint or template for creating objects. It defines a structure that encapsulates **attributes** (data) and **methods** (behavior) that its instances will have. A class allows for the modular and organized design of code, making it reusable and scalable.
 
 #### Characteristics of a Class:
@@ -10,7 +10,7 @@ A **class** is a blueprint or template for creating objects. It defines a struct
 
 ---
 
-### How to Define a Class in Python
+### 🔹How to Define a Class in Python
 To define a class in Python, use the `class` keyword followed by the class name.
 
 #### Syntax:
@@ -33,7 +33,7 @@ class Car:
 
 ---
 
-### What is `self` in Python Classes?
+### 🔹What is `self` in Python Classes?
 `self` is a reference to the current instance of the class. It allows access to instance attributes and methods.
 
 #### Importance of `self`:
@@ -54,7 +54,7 @@ class Person:
 
 ---
 
-### What is the Constructor Method (`__init__`)?
+### 🔹What is the Constructor Method (`__init__`)?
 The `__init__` method is a **special method** (also called a constructor) that is automatically called when an object is instantiated from a class. It is used to initialize instance attributes.
 
 #### Constructor Syntax:
@@ -78,7 +78,7 @@ print(my_car.brand)  # Output: Toyota
 
 ---
 
-### Magic Methods (Dunder Methods)
+### 🔹Magic Methods (Dunder Methods)
 Magic methods, also known as **dunder (double underscore) methods**, are special methods in Python that begin and end with double underscores (`__`). These methods define built-in behaviors of objects and allow for operator overloading and customization of standard operations.
 
 #### Common Magic Methods and Their Uses:
@@ -185,7 +185,7 @@ print(box1 == box2)  # Output: True
 ```
 
 
-### Class Variables vs. Instance Variables
+### 🔹Class Variables vs. Instance Variables
 Python classes have two types of variables:
 
 #### **1. Instance Variables**
@@ -212,7 +212,7 @@ print(Animal.kingdom)  # Output: Animalia
 
 ---
 
-### Name Mangling in Python (`__variable`)
+### 🔹Name Mangling in Python (`__variable`)
 Python provides **name mangling** to avoid conflicts in subclassing.
 - A variable prefixed with double underscores (`__`) gets modified internally by Python.
 - This prevents accidental modification in subclasses.
@@ -232,7 +232,7 @@ print(obj._Example__private_var)  # Output: I am private
 ```
 
 ---
-### Variables with a Single Underscore (`_variable`)
+### 🔹Variables with a Single Underscore (`_variable`)
 A single leading underscore is a **convention** indicating that a variable is intended for internal use.
 - It does **not** enforce privacy.
 - It serves as a warning that the variable should not be accessed directly.
@@ -275,7 +275,7 @@ my_car.display_info()
 
 ---
 
-### What is an Object?
+### 🔹What is an Object?
 An **object** is an instance of a class. It is a concrete entity that has unique attributes and behaviors defined by the class from which it is instantiated.
 
 #### Characteristics of an Object:
@@ -304,7 +304,7 @@ my_car.honk()        # Output: Beep beep!
 
 ---
 
-### How Objects Work in Memory
+### 🔹How Objects Work in Memory
 When an object is instantiated, Python:
 1. **Allocates memory** for the new object.
 2. **Calls the `__init__` method** to initialize attributes.
@@ -320,7 +320,7 @@ print(id(car2))  # Unique memory address of car2
 
 ---
 
-### Object Attributes
+### 🔹Object Attributes
 Objects have attributes that store their data. Attributes can be:
 
 #### **1. Instance Attributes**
@@ -358,7 +358,7 @@ print(getattr(p1, "age"))   # Output: 26
 
 ---
 
-### Object Methods
+### 🔹 Object Methods
 Methods define an object's behavior. They operate on an object's attributes.
 
 #### **Instance Methods**
@@ -381,7 +381,7 @@ dog.bark()  # Output: Buddy says woof!
 
 ---
 
-### Object Interactions
+### 🔹Object Interactions
 Objects can interact with each other by storing references to other objects.
 ```python
 class Owner:
@@ -399,7 +399,7 @@ print(dog1.owner.name)  # Output: John
 
 ---
 
-### Deleting Objects (`del`)
+### 🔹Deleting Objects (`del`)
 Objects can be deleted using the `del` keyword. This calls the `__del__` method (if defined) before the object is removed from memory.
 ```python
 class Example:
@@ -411,7 +411,7 @@ del obj  # Output: Object deleted
 
 ---
 
-### Summary
+### 🔹Summary
 - **Objects** are instances of classes and store data in attributes.
 - **Instance attributes** are unique to each object, while **class attributes** are shared.
 - **Methods** define object behavior and operate on attributes.
@@ -419,4 +419,6 @@ del obj  # Output: Object deleted
 - **Deleting an object** removes it from memory.
 
 Understanding objects is key to mastering Object-Oriented Programming in Python.
+
+Continue to the next section: **[Attributes and Methods](03_attributes-and-methods.md)**.
 

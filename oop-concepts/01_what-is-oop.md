@@ -134,3 +134,5 @@ Each instance (`car1`, `car2`) has its own separate attributes, even though they
 
 ## 🔹 Summary
 Object-Oriented Programming (OOP) is a powerful paradigm that structures code using objects. It provides **modularity, reusability, scalability, and maintainability** in software development. Understanding **classes, objects, attributes, methods, inheritance, encapsulation, abstraction, and polymorphism** is key to mastering OOP in Python.
+
+Continue to the next section: **[Classes and Objects](02_classes-and-objects.md)**.

@@ -1,8 +1,8 @@
-# Encapsulation in Object-Oriented Programming (OOP) in Python
+# 🔹Encapsulation in Python
 
 Encapsulation is one of the fundamental principles of Object-Oriented Programming (OOP). It refers to the practice of restricting direct access to some of an object's components, which helps prevent unintended interference and misuse. In Python, encapsulation is implemented using access modifiers.
 
-## Access Modifiers in Python
+## 🔹Access Modifiers in Python
 Python provides three levels of encapsulation:
 
 1. **Public Members**: Accessible from anywhere.
@@ -12,7 +12,7 @@ Python provides three levels of encapsulation:
 ### Is Encapsulation a Convention in Python?
 Unlike some other programming languages that enforce strict access control, Python follows a convention-based approach. This means that private and protected attributes are not truly restricted but are instead marked as such by convention. Developers are expected to respect these conventions rather than being technically prevented from accessing them.
 
-## Public Members
+## 🔹Public Members
 Public attributes and methods can be accessed from anywhere, both inside and outside of the class.
 
 ### Example:
@@ -32,7 +32,7 @@ print(car.model)  # Accessible
 car.display()
 ```
 
-## Protected Members
+## 🔹Protected Members
 Protected members are indicated by a single underscore `_`. This is a convention to indicate that these attributes should not be accessed directly but can still be accessed if needed. Subclasses can still access these attributes.
 
 ### Example:
@@ -59,7 +59,7 @@ e_car.show_details()  # Protected members accessible in subclass
 print(e_car._brand)  # Accessible but discouraged
 ```
 
-## Private Members
+## 🔹Private Members
 Private members are indicated by a double underscore `__`. Python performs name mangling, which modifies the variable name to prevent accidental access. However, they can still be accessed in a non-recommended way.
 
 ### Example:
@@ -108,11 +108,13 @@ print(car.get_price())  # Still prints the original value
 ```
 Instead, a new attribute `__price` is created at the instance level, and the original private attribute remains unchanged.
 
-## Benefits of Encapsulation
+## 🔹Summary
 - **Data Hiding**: Prevents direct modification of important attributes.
 - **Improved Code Maintainability**: Reduces complexity and makes debugging easier.
 - **Controlled Access**: Provides getter and setter methods for validation.
 - **Prevents Accidental Modification**: Encapsulation ensures that attributes are modified only in a controlled manner.
 
 Encapsulation in Python helps in writing clean and maintainable code by ensuring that internal object details are not exposed unnecessarily. Proper use of access modifiers allows developers to build robust applications while following OOP principles.
+
+Continue to the next section: **[Special Methods](05_special-methods.md)**.
 

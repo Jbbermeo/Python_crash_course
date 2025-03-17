@@ -2,7 +2,7 @@
 
 In Object-Oriented Programming (OOP), classes encapsulate data and behavior using **attributes** and **methods**. Below, we will explore these concepts in detail.
 
-## Attributes in Classes
+## 🔹Attributes in Classes
 
 **Attributes** are variables associated with a class or its instances. They store relevant information for objects.
 
@@ -49,7 +49,7 @@ In Object-Oriented Programming (OOP), classes encapsulate data and behavior usin
    print(p2.species)  # Homo sapiens
    ```
 
-## Methods in Classes
+## 🔹Methods in Classes
 
 ### What Are Methods?
 Methods are functions that are defined inside a class. They describe behaviors that an object (an instance of a class) can perform. 
@@ -90,7 +90,7 @@ print(my_dog.bark())  # Buddy says Woof!
 
 ---
 
-### 2. Class Methods
+### 🔹2. Class Methods
 
 #### What are Class Methods?
 Class methods work at the **class level** rather than the instance level. They are defined using the `@classmethod` decorator and take `cls` as their first parameter, which refers to the class itself.
@@ -172,7 +172,7 @@ print(Math.add(5, 3))  # 8
 ---
 
 
-## Relationship Between Methods and Attributes
+## 🔹Relationship Between Methods and Attributes
 
 Methods allow objects to **interact** with their attributes.
 
@@ -245,10 +245,7 @@ p.age = 35  # Allowed
 
 ---
 
-
-
-
-## Conclusion
+## 🔹Summary
 
 Attributes and methods are the foundation of OOP in Python. 
 
@@ -259,6 +256,8 @@ Attributes and methods are the foundation of OOP in Python.
 - **Properties (`@property`)** allow controlled access to attributes.
 
 By understanding attributes and methods, you can better structure your code and create reusable objects with defined behaviors.
+
+Continue to the next section: **[Encapsulation](04_encapsulation.md)**.
 
 
 

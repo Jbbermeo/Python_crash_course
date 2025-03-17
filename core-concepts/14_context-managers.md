@@ -249,5 +249,3 @@ with temporary_file() as filename:
 
 ## 🔹 **9. Summary**
 Context managers automate resource management, ensuring that resources like files, connections, and locks are properly allocated and released. By mastering context managers, you can write more reliable and maintainable Python code, especially in OOP projects.
-
-Continue to the next section: **[What is Object-Oriented Programming?](file_handling.md)**.

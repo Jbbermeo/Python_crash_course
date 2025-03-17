@@ -167,4 +167,4 @@ print(x is y)  # Output: False
 ## 🔹 **6. Summary**
 Understanding Python's keywords, whitespace rules, namespaces, and object comparisons is essential for writing clean and maintainable code. By following best practices and avoiding common pitfalls, you can prevent bugs and ensure that your programs behave as expected.
 
-Continue to the next section: **[Exception Handling](exception-handling.md)**
+Continue to the next section: **[Exception Handling](08_exception-handling.md)**

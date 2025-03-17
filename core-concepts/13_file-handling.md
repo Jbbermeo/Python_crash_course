@@ -192,4 +192,4 @@ append_lines('log.txt', ['Log entry 1\n', 'Log entry 2\n'])
 ## 🔹 **10. Summary**
 File handling in Python enables you to manage data storage and retrieval efficiently. By mastering file operations such as reading, writing, and appending, you can build robust applications that interact with the filesystem. In OOP, encapsulating file operations in classes enhances code organization and reusability.
 
-Continue to the next section: **[Context Managers](context-managers.md)**.
+Continue to the next section: **[Context Managers](14_context-managers.md)**.

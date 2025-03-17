@@ -1,8 +1,8 @@
-# Composition and Aggregation in Object-Oriented Programming
+# 🔹Composition and Aggregation in Object-Oriented Programming
 
 Composition and Aggregation are two key concepts in **Object-Oriented Programming (OOP)** that describe relationships between objects. Both allow objects to interact, but they define different levels of dependency between them.
 
-## Why Are Composition and Aggregation Important?
+## 🔹Why Are Composition and Aggregation Important?
 - **Encapsulating Complexity**: Helps break down large systems into smaller, manageable parts.
 - **Code Reusability**: Allows objects to be reused across multiple classes.
 - **Better Maintainability**: Changes in one object have minimal impact on others.
@@ -10,7 +10,7 @@ Composition and Aggregation are two key concepts in **Object-Oriented Programmin
 
 ---
 
-## 1. Composition (Strong Relationship)
+## 🔹1. Composition (Strong Relationship)
 Composition represents a **"has-a"** relationship where one object **owns** another object. If the **parent (container) object is destroyed, the child (contained) object is also destroyed**. This signifies a **strong dependency**.
 
 ### Key Characteristics:
@@ -49,7 +49,7 @@ car.drive()
 
 ---
 
-## 2. Aggregation (Weak Relationship)
+## 🔹2. Aggregation (Weak Relationship)
 Aggregation is a **"has-a"** relationship where one object **contains** another object but does **not own it**. If the **parent object is destroyed, the child object still exists**. This signifies a **weaker dependency**.
 
 ### Key Characteristics:
@@ -99,7 +99,7 @@ team.show_team()
 
 ---
 
-## Key Differences Between Composition and Aggregation
+## 🔹Key Differences Between Composition and Aggregation
 | Feature | Composition | Aggregation |
 |---------|------------|------------|
 | **Dependency** | Strong | Weak |
@@ -109,7 +109,7 @@ team.show_team()
 
 ---
 
-## When to Use Composition vs. Aggregation
+## 🔹When to Use Composition vs. Aggregation
 | Scenario | Use Composition | Use Aggregation |
 |----------|----------------|----------------|
 | If the child **cannot exist independently** | ✅ | ❌ |
@@ -119,10 +119,12 @@ team.show_team()
 
 ---
 
-## Conclusion
+## 🔹Summary
 - **Composition** creates a strong relationship where one object is **a core part** of another.
 - **Aggregation** creates a weak relationship where objects **cooperate but remain independent**.
 - Both approaches **promote modularity, reusability, and maintainability**.
 - The right choice depends on whether the contained object **should or should not exist independently** of the parent.
 
 Understanding **composition and aggregation** allows you to design **scalable, flexible, and efficient** object-oriented systems. 🚀
+
+Continue to the next section: **[Operator Overloading](10_operator-overloading.md)**.

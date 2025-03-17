@@ -237,4 +237,4 @@ def append_to_list(value, lst=None):
 ## 🔹 **8. Summary**
 Functions and variable scope are crucial for structuring Python programs. Understanding how scope works allows you to control data flow, avoid conflicts, and write maintainable code. Following naming conventions ensures consistency and readability. In OOP, these principles become even more important when designing class methods and managing object state.
 
-Continue to the next section: **[args-and-kwargs](args-and-kwargs.md)**.
+Continue to the next section: **[args-and-kwargs](06_args-and-kwargs.md)**.

@@ -162,4 +162,4 @@ except InsufficientFundsError as e:
 ## 🔹 **8. Summary**
 Exception handling helps prevent unexpected program crashes and ensures graceful error recovery. By using `try-except` blocks, raising custom exceptions, and following best practices, you can build more reliable and maintainable Python applications.
 
-Continue to the next section: **[Iterators and Generators](iterators-and-generators.md)**.
+Continue to the next section: **[Iterators and Generators](09_iterators-and-generators.md)**.

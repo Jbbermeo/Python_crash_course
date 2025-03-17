@@ -191,4 +191,4 @@ print(result)  # Output: [5, 10, 15, 20]
 ## 🔹 **9. Summary**
 List comprehensions and lambda functions enhance Python’s readability and efficiency. By using these tools effectively, you can streamline data processing tasks and simplify method implementations in OOP. Functions like `map()`, `filter()`, and `sorted()` leverage lambda functions to transform, filter, and sort data concisely. Understanding when and how to use these features will help you write cleaner, more maintainable code.
 
-Continue to the next section: **[Decorators in Python](decorators-in-python.md)**.
+Continue to the next section: **[Decorators in Python](11_decorators-in-python.md)**.

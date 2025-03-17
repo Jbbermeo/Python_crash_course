@@ -631,4 +631,4 @@ if not x:
 ## 🔹 **5. Next Steps**
 Understanding data types is essential as you move forward into OOP concepts like **attributes**, **methods**, and **class design**. These foundational skills will help you design more efficient and scalable object-oriented applications.
 
-Continue to the next section: **[Data Structures in Python](data-structures.md)**.
+Continue to the next section: **[Data Structures in Python](02_data-structures.md)**.

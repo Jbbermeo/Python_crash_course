@@ -125,4 +125,4 @@ print(my_dict[data_key])  # Output: value
 ## 🔹 **7. Summary**
 Hashable objects are fundamental to Python's data structures like dictionaries and sets. The `hash()` function allows you to inspect how Python calculates hash values. By understanding how hashability works, you can design more efficient and reliable OOP solutions. Custom objects can also be made hashable to fit seamlessly into these collections.
 
-Continue to the next section: **[Functions and Variable Scope](functions-and-variable-scope.md)**.
+Continue to the next section: **[Functions and Variable Scope](05_functions-and-variable-scope.md)**.

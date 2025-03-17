@@ -809,4 +809,4 @@ print(squared_set)  # Output: {0, 1, 4, 9, 16}
 ## 🔹 **6. Next Steps**
 Mastering data structures enhances your ability to design and implement robust OOP solutions. Understanding how Python manages memory helps prevent performance bottlenecks and unintended behavior.
 
-Continue to the next section: **[Mutable and Immutable Objects](mutable-and-immutable-objects.md)**.
+Continue to the next section: **[Mutable and Immutable Objects](03_mutable-and-immutable-objects.md)**.

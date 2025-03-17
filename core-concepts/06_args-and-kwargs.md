@@ -176,4 +176,4 @@ example_function(1, 2, 3, message="Hello", name="Alice")
 ## 🔹 **7. Summary**
 `*args` and `**kwargs` provide flexibility in Python functions, allowing you to handle variable-length inputs. These features are especially useful in OOP for dynamic method definitions and method overriding. By using these tools effectively, you can write more adaptable and maintainable code.
 
-Continue to the next section: **[Keywords](keywords.md)**.
+Continue to the next section: **[Keywords](07_keywords.md)**.

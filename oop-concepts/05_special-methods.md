@@ -1,8 +1,8 @@
-# Special Methods (Dunder Methods) in Python
+# 🔹Special Methods (Dunder Methods) in Python
 
 Special methods, also known as **dunder (double underscore) methods**, are predefined methods in Python that allow objects to interact with built-in functions and operators. These methods typically begin and end with double underscores, such as `__init__`, `__str__`, and `__len__`.
 
-## Why Use Dunder Methods?
+## 🔹Why Use Dunder Methods?
 Dunder methods allow objects to behave like built-in types, enabling custom classes to interact naturally with Python’s syntax and operators. This is useful for:
 - Customizing object initialization (`__init__`)
 - Defining string representation (`__str__`, `__repr__`)
@@ -11,12 +11,12 @@ Dunder methods allow objects to behave like built-in types, enabling custom clas
 - Making objects callable (`__call__`)
 - Managing resource allocation and cleanup (`__enter__`, `__exit__`)
 
-## How Are Dunder Methods Used?
+## 🔹How Are Dunder Methods Used?
 Dunder methods are defined within a class and are automatically invoked in response to built-in operations. They can define how an object interacts with itself or with other objects. If a class does not implement a dunder method, Python defaults to the behavior of the parent class or raises an error.
 
 ---
 
-## Object Initialization and Representation
+## 🔹Object Initialization and Representation
 
 ### `__init__` - Object Initialization (Constructor)
 This method is automatically called when a new instance of the class is created. It allows us to initialize attributes for the object.
@@ -65,7 +65,7 @@ print(repr(p))  # Output: Person('Alice', 30)
 
 ---
 
-## Collection-Like Behavior
+## 🔹Collection-Like Behavior
 
 ### `__len__` - Define Object Length
 Allows the object to be used with `len()`.
@@ -106,7 +106,7 @@ print(c["name"])  # Output: Key not found
 
 ---
 
-## Callable Objects
+## 🔹Callable Objects
 
 ### `__call__` - Making Objects Callable
 Allows an instance to be used as a function.
@@ -124,7 +124,7 @@ print(triple(10))  # Output: 30
 
 ---
 
-## Comparison and Arithmetic Operations
+## 🔹Comparison and Arithmetic Operations
 
 ### `__eq__`, `__ne__`, `__lt__`, `__le__`, `__gt__`, `__ge__` - Comparisons
 Define object comparison behavior.
@@ -166,7 +166,7 @@ print(result.value)  # Output: 15
 
 ---
 
-## Resource Management
+## 🔹Resource Management
 
 ### `__enter__` and `__exit__` - Context Managers
 Used with `with` statements for resource cleanup.
@@ -189,7 +189,7 @@ with FileManager("test.txt", "w") as f:
 
 ---
 
-## Summary
+## 🔹Summary
 - **Use `__init__`** to initialize objects.
 - **Use `__str__`** for user-friendly representations.
 - **Use `__repr__`** for debugging/logging.
@@ -199,4 +199,7 @@ with FileManager("test.txt", "w") as f:
 - **Use `__enter__` and `__exit__`** for managing resources.
 
 Mastering dunder methods makes classes more intuitive, expressive, and powerful in Python.
+
+Continue to the next section: **[Inheritance](06_inheritance.md)**.
+
 

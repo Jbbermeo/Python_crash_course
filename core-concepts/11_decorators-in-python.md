@@ -276,4 +276,4 @@ say_hello()
 ## 🔹 **9. Summary**
 Decorators are a powerful way to extend and modify the behavior of functions and methods. By using decorators effectively, you can implement cross-cutting concerns like logging, access control, and caching. In OOP, decorators enhance reusability and clean design by keeping functionality separate from business logic.
 
-Continue to the next section: **[Modules and Packages](modules-and-packages.md)**.
+Continue to the next section: **[Modules and Packages](12_modules-and-packages.md)**.
