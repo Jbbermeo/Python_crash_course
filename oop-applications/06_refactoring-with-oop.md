@@ -1,8 +1,8 @@
-# Refactoring with OOP in Python
+# 🔹Refactoring with OOP in Python
 
 Refactoring is the process of **restructuring existing code** without changing its external behavior. Object-Oriented Programming (OOP) makes refactoring easier by promoting **modularity, reusability, and maintainability**.
 
-## Why Refactor Code?
+## 🔹Why Refactor Code?
 - **Improves Code Readability**: Makes the code easier to understand.
 - **Enhances Maintainability**: Reduces complexity and makes modifications easier.
 - **Increases Reusability**: Helps eliminate redundancy and allows efficient code reuse.
@@ -10,10 +10,10 @@ Refactoring is the process of **restructuring existing code** without changing i
 
 ---
 
-## Key OOP-Based Refactoring Techniques
+## 🔹Key OOP-Based Refactoring Techniques
 Refactoring with OOP involves applying **best practices** and **design patterns** to improve code structure.
 
-### 1. Extracting Classes (Encapsulation)
+### 🔹1. Extracting Classes (Encapsulation)
 When a class does too much, break it into **smaller, focused classes**.
 
 **Before:**
@@ -44,7 +44,7 @@ class Employee:
         return BonusCalculator.calculate_bonus(self.salary)
 ```
 
-### 2. Replacing Conditionals with Polymorphism
+### 🔹2. Replacing Conditionals with Polymorphism
 If a class uses too many `if` statements to decide behavior, refactor it using **polymorphism**.
 
 **Before:**
@@ -85,7 +85,7 @@ for emp in employees:
     print(emp.name, emp.get_salary())
 ```
 
-### 3. Using Composition Over Inheritance
+### 🔹3. Using Composition Over Inheritance
 Prefer **composition** over deep inheritance trees to make code more flexible and reusable.
 
 **Before (Inheritance-Based Approach):**
@@ -112,7 +112,7 @@ class Car:
         return self.engine.start() + " and Car is moving"
 ```
 
-### 4. Extracting Methods for Reusability
+### 🔹4. Extracting Methods for Reusability
 If a method does multiple things, extract separate methods to improve clarity and reusability.
 
 **Before:**
@@ -136,7 +136,7 @@ class Order:
 
 ---
 
-## Common OOP Refactoring Patterns
+## 🔹Common OOP Refactoring Patterns
 | Pattern | Purpose |
 |---------|---------|
 | **Encapsulation** | Hides details inside smaller, reusable classes. |
@@ -146,9 +146,11 @@ class Order:
 
 ---
 
-## Summary
+## 🔹Summary
 - **Refactoring makes code cleaner, more maintainable, and scalable.**
 - **Apply OOP principles** such as **encapsulation, polymorphism, and composition**.
 - **Use patterns** like **Extract Class, Replace Conditionals with Polymorphism, and Extract Method**.
 
 By following these OOP refactoring techniques, developers can **enhance code quality and performance** while keeping systems easy to modify and extend! 🚀
+
+Continue to the next section: **[Testing classes and methods](07_testing-classes-and-methods.md)**.

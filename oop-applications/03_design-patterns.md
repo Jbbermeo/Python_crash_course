@@ -1,8 +1,8 @@
-# Design Patterns in Python
+# 🔹Design Patterns in Python
 
 Design patterns are **proven solutions** to common software design problems. They provide **best practices** and **guidelines** for structuring code in a way that improves **scalability, reusability, and maintainability**.
 
-## Why Use Design Patterns?
+## 🔹Why Use Design Patterns?
 - **Encapsulates Best Practices**: Avoids reinventing the wheel.
 - **Enhances Code Readability**: Provides a structured approach to development.
 - **Improves Maintainability**: Helps manage complex systems with clear architecture.
@@ -10,7 +10,7 @@ Design patterns are **proven solutions** to common software design problems. The
 
 ---
 
-## 1. Singleton Pattern
+## 🔹1. Singleton Pattern
 Ensures that a class has **only one instance** and provides a global access point to it.
 
 ### Example:
@@ -33,7 +33,7 @@ print(s1 is s2)  # Output: True
 
 ---
 
-## 2. Factory Pattern
+## 🔹2. Factory Pattern
 Provides an **interface** for creating objects but **allows subclasses to alter the type of objects that will be created**.
 
 ### Example:
@@ -67,7 +67,7 @@ print(animal.speak())  # Output: Woof!
 
 ---
 
-## 3. Observer Pattern
+## 🔹3. Observer Pattern
 Allows objects (observers) to subscribe to **state changes** in another object (subject) and be notified automatically.
 
 ### Example:
@@ -101,7 +101,7 @@ subject.notify("New event occurred!")
 
 ---
 
-## 4. Decorator Pattern
+## 🔹4. Decorator Pattern
 Dynamically **adds behavior to objects** without modifying their structure.
 
 ### Example:
@@ -123,7 +123,7 @@ print(greet())  # Output: HELLO
 
 ---
 
-## 5. Strategy Pattern
+## 🔹5. Strategy Pattern
 Defines a **family of algorithms** and allows their interchangeability **at runtime**.
 
 ### Example:
@@ -159,7 +159,7 @@ print(context.execute_strategy())  # Output: Executing Strategy B
 
 ---
 
-## Summary of Design Patterns
+## 🔹Summary
 | Pattern | Purpose | Example Use Case |
 |---------|---------|-----------------|
 | **Singleton** | Ensures a class has only one instance | Configuration manager |
@@ -169,3 +169,5 @@ print(context.execute_strategy())  # Output: Executing Strategy B
 | **Strategy** | Allows switching between algorithms | Payment processing strategies |
 
 By applying **design patterns**, Python code becomes **more structured, flexible, and maintainable**. These patterns provide **reusable solutions** that improve the quality of software architecture. 🚀
+
+Continue to the next section: **[Using Dataclasses](04_using-dataclasses.md)**.

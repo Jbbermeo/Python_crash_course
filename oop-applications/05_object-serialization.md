@@ -1,8 +1,8 @@
-# Object Serialization in Python (pickle, json)
+# 🔹Object Serialization in Python (pickle, json)
 
 Object serialization is the process of **converting Python objects into a format** that can be stored, transmitted, or reconstructed later. Python provides two popular modules for serialization: **pickle** and **json**.
 
-## Why Use Serialization?
+## 🔹Why Use Serialization?
 - **Data Persistence**: Save objects to disk for later use.
 - **Inter-Process Communication**: Exchange objects between different Python programs.
 - **Data Transmission**: Send data over networks or APIs.
@@ -10,10 +10,10 @@ Object serialization is the process of **converting Python objects into a format
 
 ---
 
-## 1. Using `pickle` for Binary Serialization
+## 🔹1. Using `pickle` for Binary Serialization
 The `pickle` module allows **storing Python objects in binary format**.
 
-### Pickling (Serializing an Object)
+### 🔹Pickling (Serializing an Object)
 ```python
 import pickle
 
@@ -38,10 +38,10 @@ print(loaded_data)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
 
 ---
 
-## 2. Using `json` for Human-Readable Serialization
+## 🔹2. Using `json` for Human-Readable Serialization
 The `json` module provides a **text-based format**, making it **widely compatible** across platforms and languages.
 
-### Serializing to JSON (Encoding)
+### 🔹Serializing to JSON (Encoding)
 ```python
 import json
 
@@ -51,13 +51,13 @@ data = {"name": "Alice", "age": 30, "city": "New York"}
 json_string = json.dumps(data, indent=4)
 print(json_string)
 ```
-### Saving JSON to a File
+### 🔹Saving JSON to a File
 ```python
 # Save JSON to a file
 with open("data.json", "w") as file:
     json.dump(data, file, indent=4)
 ```
-### Loading JSON (Decoding)
+### 🔹Loading JSON (Decoding)
 ```python
 # Load JSON from a file
 with open("data.json", "r") as file:
@@ -72,10 +72,10 @@ print(loaded_json)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
 
 ---
 
-## 3. Serializing Custom Objects
+## 🔹3. Serializing Custom Objects
 Since `json` does not support custom objects by default, we need a custom encoder.
 
-### Custom Encoding with `json`
+### 🔹Custom Encoding with `json`
 ```python
 class Person:
     def __init__(self, name, age):
@@ -113,9 +113,19 @@ print(p_obj.name, p_obj.age)  # Output: Alice 30
 
 ---
 
-## 4. Choosing Between `pickle` and `json`
+## 🔹4. Choosing Between `pickle` and `json`
 | Feature | `pickle` | `json` |
 |---------|---------|--------|
 | **Format** | Binary | Text (JSON) |
 | **Human Readable?** | ❌ No | ✅ Yes |
-| **Cross-Language Compatible?** | ❌ No | ✅
+| **Cross-Language Compatible?** | ❌ No | ✅ Yes |
+| **Supports Custom Objects?** | ✅ Yes | ❌ No (requires custom encoding) |
+| **Security Risks?** | ⚠️ High (can execute arbitrary code) | ✅ Safe |
+
+### 🔹Summary:
+- Use `pickle` **when working within Python** and **need to store complex objects** efficiently.
+- Use `json` **for cross-platform compatibility**, APIs, and **human-readable data storage**.
+- Avoid untrusted `pickle` files, as they can execute **arbitrary code** when deserialized.
+
+Both serialization methods serve different purposes, and understanding their differences ensures you choose the right one for your needs.
+Continue to the next section: **[Refactoring with OOP](06_refactoring-with-oop.md)**.

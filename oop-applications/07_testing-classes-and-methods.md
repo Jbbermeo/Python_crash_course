@@ -1,8 +1,8 @@
-# Testing Classes and Methods in Python
+# 🔹Testing Classes and Methods in Python
 
 Testing is a crucial part of software development that ensures **code reliability, maintainability, and correctness**. Python provides several testing frameworks and best practices to effectively test **classes and methods**.
 
-## Why Test Classes and Methods?
+## 🔹Why Test Classes and Methods?
 - **Prevents Bugs**: Identifies issues before deployment.
 - **Improves Code Quality**: Ensures functions and classes work as expected.
 - **Enhances Maintainability**: Makes future modifications safer.
@@ -10,7 +10,7 @@ Testing is a crucial part of software development that ensures **code reliabilit
 
 ---
 
-## 1. Unit Testing with `unittest`
+## 🔹1. Unit Testing with `unittest`
 Python’s built-in `unittest` module provides a structured way to test classes and methods.
 
 ### Writing a Basic Test Case
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 ---
 
-## 2. Using `pytest` for Simpler Tests
+## 🔹2. Using `pytest` for Simpler Tests
 `pytest` is a popular framework with **less boilerplate** than `unittest`.
 
 ### Example:
@@ -64,7 +64,7 @@ pytest test_file.py
 
 ---
 
-## 3. Mocking Dependencies with `unittest.mock`
+## 🔹3. Mocking Dependencies with `unittest.mock`
 Use **mocking** to isolate unit tests from external dependencies (e.g., databases, APIs).
 
 ### Example:
@@ -96,7 +96,7 @@ print(service.get_data())  # Output: Mocked Data
 
 ---
 
-## 4. Testing Private Methods (Encapsulation Considerations)
+## 🔹4. Testing Private Methods (Encapsulation Considerations)
 By convention, **private methods** (prefixed with `_`) should **not be tested directly**. Instead:
 - **Test public methods** that use private methods.
 - **Refactor if private methods contain complex logic**.
@@ -114,7 +114,7 @@ Instead of testing `_hidden_method()` directly, test `public_method()`.
 
 ---
 
-## 5. Test Coverage and Best Practices
+## 🔹5. Test Coverage and Best Practices
 - **Keep tests independent**: Each test should run in isolation.
 - **Use descriptive test names**: `test_addition_returns_correct_sum()` instead of `test1()`.
 - **Aim for high coverage**: Use `coverage.py` to measure tested lines.
@@ -129,7 +129,7 @@ coverage report -m
 
 ---
 
-## Summary
+## 🔹Summary
 | Concept | Description |
 |---------|-------------|
 | **`unittest`** | Built-in testing framework with assertions. |
@@ -138,3 +138,4 @@ coverage report -m
 | **Best Practices** | Independent tests, meaningful names, and high coverage. |
 
 Testing classes and methods ensures **robust, maintainable, and bug-free** Python applications! 🚀
+

@@ -1,8 +1,8 @@
-# Class Design in Python
+# 🔹Class Design in Python
 
 Designing classes effectively is crucial in **Object-Oriented Programming (OOP)**. A well-designed class improves **code maintainability, reusability, and scalability**.
 
-## Why Is Class Design Important?
+## 🔹Why Is Class Design Important?
 - **Encapsulation**: Hides implementation details, exposing only necessary functionality.
 - **Code Reusability**: Promotes modularity and prevents redundancy.
 - **Scalability**: Allows easy extension of functionality without modifying existing code.
@@ -10,7 +10,7 @@ Designing classes effectively is crucial in **Object-Oriented Programming (OOP)*
 
 ---
 
-## Principles of Good Class Design
+## 🔹Principles of Good Class Design
 A well-designed class follows these key principles:
 
 ### 1. **Single Responsibility Principle (SRP)**
@@ -30,7 +30,7 @@ Instead of a single **monolithic** class, responsibilities are split into separa
 
 ---
 
-### 2. **Encapsulation and Information Hiding**
+## 🔹2. **Encapsulation and Information Hiding**
 Encapsulation ensures that class **attributes and methods** are not directly accessed but controlled via methods.
 
 **Example:**
@@ -50,7 +50,7 @@ class BankAccount:
 
 ---
 
-### 3. **Composition Over Inheritance**
+## 🔹3. **Composition Over Inheritance**
 Prefer **composition** instead of deep inheritance trees to keep classes flexible and decoupled.
 
 **Example:**
@@ -72,7 +72,7 @@ class Car:
 
 ---
 
-### 4. **Avoid Overuse of Static Methods**
+## 🔹4. **Avoid Overuse of Static Methods**
 Static methods can be useful, but overusing them removes the benefits of OOP.
 
 **Good Use Case:** Utility functions that don't require object state.
@@ -86,7 +86,7 @@ For stateful operations, prefer **instance methods**.
 
 ---
 
-### 5. **Follow the Open-Closed Principle (OCP)**
+### 🔹5. **Follow the Open-Closed Principle (OCP)**
 A class should be **open for extension but closed for modification**.
 
 **Example:** Instead of modifying an existing class, extend it.
@@ -103,7 +103,7 @@ Adding a new animal does not modify the existing `Animal` class.
 
 ---
 
-## Common Class Design Patterns
+## 🔹Common Class Design Patterns
 | Pattern | Purpose |
 |---------|---------|
 | **Singleton** | Ensures only one instance of a class exists. |
@@ -113,9 +113,11 @@ Adding a new animal does not modify the existing `Animal` class.
 
 ---
 
-## Summary
+## 🔹Summary
 - **Well-designed classes improve modularity, maintainability, and scalability.**
 - Follow **principles** like **SRP, Encapsulation, and Composition Over Inheritance**.
 - Use **design patterns** to solve common architectural problems.
 
 By following these principles, Python classes become **clean, efficient, and easier to extend**! 🚀
+
+Continue to the next section: **[Solid principles in python](02_solid-principles-in-python.md)**.

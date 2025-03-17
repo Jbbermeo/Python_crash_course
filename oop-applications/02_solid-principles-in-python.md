@@ -1,4 +1,4 @@
-# SOLID Principles in Python
+# 🔹SOLID Principles in Python
 
 The **SOLID** principles are five design principles in **Object-Oriented Programming (OOP)** that help in creating **maintainable, scalable, and readable** software. They were introduced by **Robert C. Martin (Uncle Bob)** to promote better software architecture.
 
@@ -10,7 +10,7 @@ The **SOLID** principles are five design principles in **Object-Oriented Program
 
 ---
 
-## 1. Single Responsibility Principle (SRP)
+## 🔹1. Single Responsibility Principle (SRP)
 A class should have **only one reason to change**. This means a class should only have **one responsibility**.
 
 ### Example:
@@ -29,7 +29,7 @@ class ReportSaver:
 
 ---
 
-## 2. Open-Closed Principle (OCP)
+## 🔹2. Open-Closed Principle (OCP)
 A class should be **open for extension but closed for modification**.
 
 ### Example:
@@ -53,7 +53,7 @@ class Cat(Animal):
 
 ---
 
-## 3. Liskov Substitution Principle (LSP)
+## 🔹3. Liskov Substitution Principle (LSP)
 Subclasses should be replaceable for their base classes **without altering the correctness of the program**.
 
 ### Example:
@@ -85,7 +85,7 @@ class Penguin(Bird):
 
 ---
 
-## 4. Interface Segregation Principle (ISP)
+## 🔹4. Interface Segregation Principle (ISP)
 A class should **not be forced to implement methods** it does not use.
 
 ### Example:
@@ -125,7 +125,7 @@ class Robot(Workable):
 
 ---
 
-## 5. Dependency Inversion Principle (DIP)
+## 🔹5. Dependency Inversion Principle (DIP)
 High-level modules should not depend on low-level modules. **Both should depend on abstractions.**
 
 ### Example:
@@ -166,7 +166,7 @@ class Application:
 
 ---
 
-## Summary of SOLID Principles
+## 🔹Summary
 | Principle | Description |
 |-----------|-------------|
 | **SRP** | A class should have only one responsibility. |
@@ -176,3 +176,6 @@ class Application:
 | **DIP** | High-level modules should depend on abstractions, not concrete implementations. |
 
 By following **SOLID principles**, Python code becomes **more modular, flexible, and maintainable**. These principles help build **scalable and robust applications** that are easy to extend and modify. 🚀
+
+
+Continue to the next section: **[Desing patterns](03_design-patterns.md)**.
