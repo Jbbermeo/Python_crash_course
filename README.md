@@ -47,11 +47,8 @@
 ## 🔹 **4. Exercises and Assessments**
 👉 **Practice exercises and assessments** to test knowledge.
 
-31. [Core Concepts Exercises](#core-concepts-exercises)
-32. [OOP Exercises](#oop-exercises)
-33. [Project: Build a Management System (OOP)](#final-project)
-34. [Multiple-Choice Assessments](#multiple-choice-assessments)
+31. [Core Concepts Exercises](exercises/core-concepts-exercises.ipynb)
+32. [OOP Exercises](exercises/oop-exercises.ipynb)
+33. [Multiple-Choice Assessments](exercises/multiple-choice-assessments.ipynb)
 
 ---
-
-This structure helps ensure learners have a solid foundation before diving into OOP. Feel free to expand each section with detailed explanations, code examples, and practice exercises. 🚀
