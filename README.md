@@ -1,5 +1,14 @@
 # 📚 Object-Oriented Programming (OOP) in Python: Documentation Structure
 
+## 🔹 **Overview**
+This documentation provides a structured learning path for understanding **Object-Oriented Programming (OOP) in Python**. It is divided into four key modules:
+
+1. **Core Concepts Before OOP** – Covers essential Python fundamentals to build a strong foundation before diving into OOP.
+2. **Key OOP Concepts** – Introduces fundamental OOP principles such as classes, inheritance, polymorphism, and encapsulation.
+3. **OOP Applications and Best Practices** – Demonstrates how to apply OOP in real-world scenarios using best practices.
+4. **Exercises and Assessments** – Includes practical exercises and quizzes to reinforce understanding and test knowledge.
+
+
 ## 🔹 **1. Core Concepts Before OOP**
 👉 These are essential Python concepts to reinforce knowledge before diving into OOP.
 
@@ -52,3 +61,11 @@
 35. [Multiple-Choice Assessments](exercises/multiple-choice-assessments.ipynb)
 
 ---
+## 📖 **Acknowledgments**
+This documentation was created with insights and references from the following sources:
+- [El Libro de Python](https://ellibrodepython.com)
+- [Learn Python](https://www.learnpython.org)
+- [Real Python](https://realpython.com/)
+- *Python 3: Deep Dive (Part 4 - OOP)* by Dr. Fred Baptiste
+- *Python 3: Deep Dive (Part 1 - Functional)* by Dr. Fred Baptiste
+- ChatGPT (for content structuring and additional insights)
